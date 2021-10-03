@@ -1,0 +1,19 @@
+{
+
+   
+  "name": "YogaGame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server": "live-server ./ --port=8181 --host=localhost --proxy=/api:http://www.abc.com/api/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+  
+}
